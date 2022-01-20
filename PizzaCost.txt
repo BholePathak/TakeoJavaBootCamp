@@ -1,0 +1,17 @@
+
+public class PizzaCost {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int Qty = 2;
+		double PizzaPrice = 399.0;
+		double BillAmt = (Qty * PizzaPrice);
+		double Dis = 0.20;
+		float FinalBillAmt;
+		FinalBillAmt = (float)(BillAmt - (BillAmt * Dis));
+			
+		System.out.println("Final Bill Amount: " +FinalBillAmt);
+
+	}
+
+}

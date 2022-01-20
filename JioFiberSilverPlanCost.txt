@@ -1,0 +1,15 @@
+
+public class JioFiberSilverPlanCost {
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int PlanCost = 699;
+		double GST = 0.18;
+		float TotalCost;
+		TotalCost = (float)(PlanCost + (PlanCost * GST));
+			
+		System.out.println("Jio Fiber Plan Total Cost is: " +TotalCost);
+	}
+
+}
