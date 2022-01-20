@@ -1,0 +1,21 @@
+
+public class Swap3NumbersWithTemp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int fno=1; int sno=2; int tno=3;
+		System.out.println("Before Swapping");
+		System.out.println("fno: "+fno+"\t"+  "sno: "+sno+"\t"+ "tno : "+tno);
+
+	//Swapping using temp
+		int temp=fno;
+		fno = tno;
+		tno = sno;
+		sno = temp;
+		System.out.println("After Swapping");
+		System.out.println("fno: "+fno+"\t"+  "sno: "+sno+"\t"+ "tno : "+tno);
+	
+	}
+	
+
+}

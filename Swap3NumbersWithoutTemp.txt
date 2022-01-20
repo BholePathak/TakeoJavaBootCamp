@@ -1,0 +1,20 @@
+
+public class Swap3NumbersWithoutTemp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int fno=1; int sno=2; int tno=3;
+		System.out.println("Before Swapping");
+		System.out.println("fno: "+fno+"\t"+  "sno: "+sno+"\t"+ "tno : "+tno);
+	//Swapping without using temp
+		fno = fno+sno+tno;
+		sno = fno-(sno+tno);
+		tno = fno-(sno+tno);
+		fno = fno-(sno+tno);
+		System.out.println("After Swapping without temp");
+		System.out.println("fno: "+fno+"\t"+  "sno: "+sno+"\t"+ "tno : "+tno);
+
+	}
+	
+
+}

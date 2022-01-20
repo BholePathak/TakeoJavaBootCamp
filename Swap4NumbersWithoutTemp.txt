@@ -1,0 +1,19 @@
+
+public class Swap4Numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int fno=1; int sno=2; int tno=3; int fhno=4;
+		System.out.println("Before Swapping");
+		System.out.println("fno: "+fno+"\t"+  "sno: "+sno+"\t"+ "tno : "+tno+ "\t"+ "fhno : "+fhno);
+	//Swapping without using temp
+		fno = fno+sno+tno+fhno;
+		sno = fno-(sno+tno+fhno);
+		tno = fno-(sno+tno+fhno);
+		fhno= fno-(sno+tno+fhno);
+		fno = fno-(sno+tno+fhno);
+		System.out.println("After Swapping without temp");
+		System.out.println("fno: "+fno+"\t"+  "sno: "+sno+"\t"+ "tno : "+tno+ "\t"+ "fhno : "+fhno);
+	}
+	
+}
