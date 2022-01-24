@@ -1,0 +1,27 @@
+
+package Assignments;
+
+import java.util.Scanner;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+
+		
+		long fnumber = 1;
+		Scanner Sc = new Scanner(System.in);
+		System.out.print("Please Enter Number: ");
+		int num = Sc.nextInt();
+		
+		if(num<0) 
+			System.out.println("can't perform factorial");
+		else if(num<=1)
+			System.out.println("Factorial is:" +fnumber);
+		else {
+			for(int i=num; i>=2; i--)
+				fnumber = fnumber * i;
+			}
+			System.out.println("Factorial of "+num +"! is: " +fnumber);	
+		}
+
+}
